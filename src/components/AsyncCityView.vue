@@ -2,7 +2,7 @@
     <div class="flex flex-col flex-1 items-center">
         <div v-if="route.query.preview" class="text-white p-4
         bg-weather-secondary w-full text-center">
-        <p>previewing</p>
+        <p>Xem trước</p>
 
         </div>
         <div class="flex flex-col items-center text-white py-12">
