@@ -40,7 +40,7 @@
     </section>
 
     <section class="wind-sun-info grid grid-cols-2 gap-4 text-m">
-        <p>WTốc độ gió: {{ weatherData.wind.speed }} m/s</p>
+        <p>Tốc độ gió: {{ weatherData.wind.speed }} m/s</p>
         <p>Hướng gió: {{ weatherData.wind.deg }}&deg;</p>
         <p>
             Bình minh: {{ new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString("vi-vn") }}
