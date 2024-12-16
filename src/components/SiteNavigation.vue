@@ -40,7 +40,7 @@
               Chọn một thành phố trong kết quả, bạn sẽ được chuyển đến thông tin thời tiết hiện tại của thành phố đó.
             </li>
             <li>
-              Theo dõi thành phố bằng cách nhấp vào biểu tượng "+" ở góc trên bên phải. Điều này sẽ lưu thành phố để bạn xem lại sau trên trang chủ.
+              Theo dõi thành phố bằng cách nhấp vào biểu tượng "+" ở góc trên bên phải. Lưu thành phố để bạn xem lại sau trên trang chủ.
             </li>
           </ol>
 
