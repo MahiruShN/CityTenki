@@ -43,10 +43,10 @@
         <p>WTốc độ gió: {{ weatherData.wind.speed }} m/s</p>
         <p>Hướng gió: {{ weatherData.wind.deg }}&deg;</p>
         <p>
-            Bình minh: {{ new Date(weatherData.sys.sunrise * 1000).toLocaleTimeString("vi-vn") }}
+            Bình minh: {{ new Date((weatherData.sys.sunrise -25200 + weatherData.timezone) * 1000).toLocaleTimeString("vi-vn") }}
         </p>
         <p>
-            Hoàng hôn: {{ new Date(weatherData.sys.sunset * 1000).toLocaleTimeString("vi-vn") }}
+            Hoàng hôn: {{ new Date((weatherData.sys.sunset -25200 + weatherData.timezone)* 1000).toLocaleTimeString("vi-vn") }}
         </p>
     </section>
     <hr class="border-white border-opacity-30 border w-full" />
